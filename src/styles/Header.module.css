@@ -1,0 +1,39 @@
+.header {
+    background: #FFD3C0;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.contactButton {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
